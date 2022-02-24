@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/formularioSI.css">
+    <title>Entre em Contato</title>
+</head>
+
+<body>
+    <main>
+        <button id="btn"type="button" class="btn btn-primary"><a href="../index/index.html">Home</a></button>
+        <h1>Formulario para Contato:</h1>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" name="meuForm" id="formulario">
+            <div class="box">
+
+                <fieldset id="fild1">
+                <input type=hidden name="oid" value="00D8c000004sfFM">
+                <input type=hidden name="retURL" value="">
+                <label for="recordType">
+                    <span>Sou um(a)</span>
+                    <select class="input_text" id="recordType" name="recordType">
+                        <option value="">-- Nenhum --</option>
+                        <option value="0128c0000026DfA">Empresa</option>
+                        <option value="0128c0000026DZS">Professor(a)</option>
+                    </select>
+                </label>
+
+                <label for="lead_source">
+                    <span>Origem do Contato</span>
+                    <select class="input_text" id="lead_source" name="lead_source">
+                        <option class="input_text" value="Web">Web</option>
+                    </select>
+                </label>
+                
+                <label for="first_name">
+                    <span>Primeiro Nome</span>
+                    <input type="text" class="input_text" name="first_name" id="first_name"/>
+                </label>
+
+                <label for="last_name">
+                    <span>Sobrenome</span>
+                    <input type="text" class="input_text" name="last_name" id="last_name"/>
+                </label>
+
+                <label for="phone">
+                    <span>Telefone</span>
+                    <input type="text" class="input_text" name="phone" id="phone" onblur="telefone(this)"/>
+                </label>
+                <label for="email">
+                    <span>Email</span>
+                    <input type="text" class="input_text" name="email" id="email"/>
+                </label>
+            </fieldset>
+<fieldset id="fild2">
+  
+                <label for="company">
+                    <span>Empresa</span>
+                    <input type="text" class="input_text" name="company" id="company"/>
+                </label>
+
+                <label for="CNPJ__c">
+                    <span>MEI / CNPJ</span>
+                    <input type="text" class="input_text" name="CNPJ__c" id="CNPJ__c"/>
+                   
+                </label>
+
+                <label for="city">
+                    <span>Cidade</span>
+                    <input type="text" class="input_text" name="city" id="city"/>
+                </label>
+
+                <label for="state">
+                    <span>Estado</span>
+                    <input type="text" class="input_text" name="state" id="state"/>
+                </label>
+
+                <label>
+                    <span>Motivo do Contato</span>
+                    <textarea class="message" name="description" cols="40" rows="8"></textarea><br><br>
+                </label>
+                <input type="submit" name="submit" value="Enviar" class="submit">
+            </div>
+        </fieldset>
+        </form>
+    </main>
+</body>
+<script type="text/javascript" src="../javaScript/regraTelefone.js"></script>
+</html>

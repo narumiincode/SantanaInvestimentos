@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+    <link rel="stylesheet" type="text/css" href="../css/formularioCaso.css">
+</head>
+<body>
+    <main>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST" name="meuForm" id="formulario">
+            <div class="box">
+                <h1> Atendimento ao Cliente</h1>
+                
+                <input type=hidden name="orgid" value="00D8c000004sfFM">
+                <input type=hidden name="retURL" value="C:/Users/Dell/Documents/Aulas%20Salesfoce%20-%20Developer/tccSoulCode/index/agradecimento.html">
+
+                <label>
+                    <span>Nome Completo</span>
+                    <input type="text" class="input_text"  name="nome" id="name"/>
+            
+                </label>
+            
+                <label>
+                    <span>Email</span>
+                    <input type="text" class="input_text" name="email" id="email"/>
+                </label>
+
+                <label>
+                    <span>Telefone</span>
+                    <input type="text" class="input_text" name="phone" id="phone"/>
+                </label>
+            
+                <label>
+                    <span>Assunto</span>
+                    <input type="text" class="input_text" name="subject" id="subject"/>
+                </label>
+            
+                <label>
+                    <span>Mensagem</span>
+                    <textarea class="message" name="description" id="description"></textarea>
+                </label>
+                <input type="submit" name="submit" value="Enviar" class="submit">
+            </div>
+        </form>
+   
+    </main>
+</body>
+</html>

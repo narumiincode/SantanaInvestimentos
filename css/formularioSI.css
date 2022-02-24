@@ -1,0 +1,148 @@
+*{ margin:0; padding:0;}
+
+body{ 
+    font:100% normal Arial, Helvetica, sans-serif; 
+    /* background-image: url("https://cutewallpaper.org/21/business-background-images/HD-Business-Wallpaper-59-images.jpg"); */
+    background-image: url(../imagens/a-book-4126483.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#btn{
+    padding: 7px 18px;
+    margin: 7px auto auto 154px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px black;
+    Z-INDEX: 2;
+    position: fixed;
+    font-weight: bolder;
+
+}
+a{
+    color: white;
+    font: 100% normal Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+a:hover{
+   font-style: none;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(0 66 116 / 76%);
+  border-color: #375a7c;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #000000e8;
+  border-color: #1a1d20;
+  
+}
+
+form,input,select,textarea{margin:0; padding:0; color:#ffffff;}
+
+#fild1{
+ float: left;
+ margin: 60px 100px auto 88px;
+ border: none;
+}
+
+#fild2{
+    float: left;
+    margin-top: 62px;
+    border: none;
+}
+
+div.box {
+    border-radius: 7px;
+    margin: 0 auto;
+    width: 80%;
+    height: 78vh;
+    background: #222222cf;
+    position: relative;
+    top: 50px;
+    border: 1px solid #262626;
+}
+
+ h1 {
+    border-radius: 7px;
+    color: #ffffff;
+    width: 78%;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #161712;
+    border-top: 1px solid #161712;
+    background-color: #222222db;
+    margin: 20px auto 0px auto;
+    text-align: center;;
+}
+
+div.box label {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    background: #1c1c1cd1;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #161712;
+    padding: 10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+    padding: 10px 10px;
+    width: 200px;
+    background: #262626;
+    border-radius: 6px;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;;
+}
+
+div.box .message{
+    padding: 7px 7px;
+    width: 350px;
+    border-radius: 8px;
+    background: #262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left: 1px double #333333;
+    border-right: 1px double #333333;
+    overflow: hidden;
+    height: 60px;
+}
+
+div.box .submit{
+    margin: 0 0 20px 0;
+    padding: 4px 7px;
+    background: #1f4064;
+    border: 0px;
+    position: relative;
+    top: 10px;
+    left: 340px;
+    width: 118px;
+    padding: 10px;
+    font-size: 19px;
+    box-shadow: 3px 2px 4px #00000094;
+    border-radius: 9px;
+}
+
+/* .visibility{
+    visibility: hidden;
+} */
+
